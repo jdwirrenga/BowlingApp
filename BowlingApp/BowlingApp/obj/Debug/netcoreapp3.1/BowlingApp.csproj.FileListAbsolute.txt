@@ -1,0 +1,15 @@
+C:\Users\jdwir\source\repos\BowlingApp\BowlingApp\BowlingApp\obj\Debug\netcoreapp3.1\BowlingApp.csprojAssemblyReference.cache
+C:\Users\jdwir\source\repos\BowlingApp\BowlingApp\BowlingApp\obj\Debug\netcoreapp3.1\BowlingApp.BowlingForm.resources
+C:\Users\jdwir\source\repos\BowlingApp\BowlingApp\BowlingApp\obj\Debug\netcoreapp3.1\BowlingApp.csproj.GenerateResource.cache
+C:\Users\jdwir\source\repos\BowlingApp\BowlingApp\BowlingApp\obj\Debug\netcoreapp3.1\BowlingApp.AssemblyInfoInputs.cache
+C:\Users\jdwir\source\repos\BowlingApp\BowlingApp\BowlingApp\obj\Debug\netcoreapp3.1\BowlingApp.AssemblyInfo.cs
+C:\Users\jdwir\source\repos\BowlingApp\BowlingApp\BowlingApp\obj\Debug\netcoreapp3.1\BowlingApp.csproj.CoreCompileInputs.cache
+C:\Users\jdwir\source\repos\BowlingApp\BowlingApp\BowlingApp\bin\Debug\netcoreapp3.1\BowlingApp.exe
+C:\Users\jdwir\source\repos\BowlingApp\BowlingApp\BowlingApp\bin\Debug\netcoreapp3.1\BowlingApp.deps.json
+C:\Users\jdwir\source\repos\BowlingApp\BowlingApp\BowlingApp\bin\Debug\netcoreapp3.1\BowlingApp.runtimeconfig.json
+C:\Users\jdwir\source\repos\BowlingApp\BowlingApp\BowlingApp\bin\Debug\netcoreapp3.1\BowlingApp.runtimeconfig.dev.json
+C:\Users\jdwir\source\repos\BowlingApp\BowlingApp\BowlingApp\bin\Debug\netcoreapp3.1\BowlingApp.dll
+C:\Users\jdwir\source\repos\BowlingApp\BowlingApp\BowlingApp\bin\Debug\netcoreapp3.1\BowlingApp.pdb
+C:\Users\jdwir\source\repos\BowlingApp\BowlingApp\BowlingApp\obj\Debug\netcoreapp3.1\BowlingApp.dll
+C:\Users\jdwir\source\repos\BowlingApp\BowlingApp\BowlingApp\obj\Debug\netcoreapp3.1\BowlingApp.pdb
+C:\Users\jdwir\source\repos\BowlingApp\BowlingApp\BowlingApp\obj\Debug\netcoreapp3.1\BowlingApp.genruntimeconfig.cache
