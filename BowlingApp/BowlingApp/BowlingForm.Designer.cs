@@ -335,12 +335,12 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label FrameLabel;
+        public System.Windows.Forms.Label FrameLabel;
         private System.Windows.Forms.Button ScoreButton;
-        private System.Windows.Forms.TextBox scoreTextBox;
+        public System.Windows.Forms.TextBox scoreTextBox;
         private System.Windows.Forms.Label TotalScore;
         private System.Windows.Forms.Label TotalScoreLabel;
-        private System.Windows.Forms.Label ErrorLabel;
+        public System.Windows.Forms.Label ErrorLabel;
         private System.Windows.Forms.Label labelFrame1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label f3Score;
@@ -353,8 +353,8 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label f7Score;
         private System.Windows.Forms.Label f8Score;
-        private System.Windows.Forms.Label f10Score;
-        private System.Windows.Forms.Label f9Score;
+        public System.Windows.Forms.Label f10Score;
+        public System.Windows.Forms.Label f9Score;
         private System.Windows.Forms.Label f4Score;
         private System.Windows.Forms.Label f5Score;
         private System.Windows.Forms.Label f6Score;
