@@ -96,11 +96,11 @@ namespace BowlingApp
 
         private void UpdatePreviousStrikesAndSpares(int newScore)
         {
-            if (currentFrame > 1 && strikeFrames[currentFrame - 1] && frameScores[currentFrame].Count < 3)
+            if (currentFrame > 1 && strikeFrames[currentFrame - 1] && frameScores[currentFrame].Count <= 2)
             {
                 frameScores[currentFrame - 1].Add(newScore);
 
-                if ((currentFrame > 2 && strikeFrames[currentFrame - 2]) && frameScores[currentFrame].Count < 2)
+                if (currentFrame > 2 && strikeFrames[currentFrame - 2] && frameScores[currentFrame].Count <= 1)
                     frameScores[currentFrame - 2].Add(newScore);
             }
 
@@ -110,14 +110,11 @@ namespace BowlingApp
 
         private void CheckStrikeOrSpare(int newScore)
         {
-            if (frameScores[currentFrame].Count == 2)
+            if (frameScores[currentFrame].Count == 2 && frameScores[currentFrame].Sum() == 10)
             {
-                if (frameScores[currentFrame].Sum() == 10) //spare
-                {
-                    spareFrames[currentFrame] = true;
-                }
+                spareFrames[currentFrame] = true;
             }
-            else if (newScore == 10) //strike
+            else if (newScore == 10)
             {
                 strikeFrames[currentFrame] = true;
             }
@@ -125,12 +122,9 @@ namespace BowlingApp
 
         private void CheckEndOfFrame()
         {
-            if (currentFrame < 10)
+            if (currentFrame < 10 && (strikeFrames[currentFrame] || frameScores[currentFrame].Count == 2))
             {
-                if (strikeFrames[currentFrame] || frameScores[currentFrame].Count == 2)
-                {
-                    NewFrame();
-                }
+                NewFrame();
             }
             else
             {
@@ -149,7 +143,6 @@ namespace BowlingApp
         {
             DisplayUpdatedScores();
             currentFrame++;
-
             FrameLabel.Text = $"Frame {currentFrame}";
         }
 
